@@ -1,0 +1,87 @@
+.heroSection {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.heroContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.heroImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+  pointer-events: none;
+  user-select: none;
+}
+.heroMessage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  width: 100%;
+  max-width: 600px;
+  padding: 2.5rem 1.5rem;
+  background: rgba(255,255,255,0.92);
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.07);
+  text-align: center;
+}
+.heroHeadline {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #18181b;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+.heroSubheadline {
+  font-size: 1.45rem;
+  font-weight: 400;
+  color: #52525b;
+  margin-bottom: 2.2rem;
+  text-align: center;
+}
+.heroCTA {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 0.85em 2.2em;
+  border-radius: 2em;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+  transition: background 0.18s, box-shadow 0.18s;
+  margin: 0 auto;
+}
+.heroCTA:hover {
+  background: #1e40af;
+  box-shadow: 0 4px 16px rgba(37,99,235,0.13);
+}
+@media (max-width: 900px) {
+  .heroSection {
+    height: 520px !important;
+  }
+  .heroMessage {
+    padding: 1.2rem 1.2rem;
+    max-width: 95vw;
+  }
+}
+@media (max-width: 600px) {
+  .heroSection {
+    height: 420px !important;
+  }
+  .heroMessage {
+    padding: 0.8rem 0.5rem;
+    font-size: 1rem;
+  }
+} 

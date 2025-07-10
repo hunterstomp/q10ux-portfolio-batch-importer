@@ -1,0 +1,16 @@
+.gallery {
+  margin: 2rem 0;
+}
+.images {
+  display: flex;
+  gap: 1rem;
+}
+.imagePlaceholder {
+  background: #ececec;
+  width: 180px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+} 

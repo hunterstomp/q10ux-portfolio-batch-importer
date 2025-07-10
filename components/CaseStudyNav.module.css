@@ -1,0 +1,9 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.nav a {
+  color: #0070f3;
+  text-decoration: underline;
+} 

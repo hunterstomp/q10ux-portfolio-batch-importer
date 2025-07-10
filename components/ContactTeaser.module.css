@@ -1,0 +1,40 @@
+.contactTeaser {
+  background: #f8fafc;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  padding: 3.2rem 1.5rem 3.6rem 1.5rem;
+  margin: 3.5rem auto 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+.sectionHeader {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #18181b;
+  margin-bottom: 1.1rem;
+}
+.sectionDesc {
+  font-size: 1.15rem;
+  color: #52525b;
+  margin-bottom: 2.1rem;
+}
+.ctaBtn {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1.13rem;
+  font-weight: 600;
+  padding: 0.85em 2.2em;
+  border-radius: 2em;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+  transition: background 0.18s, box-shadow 0.18s;
+}
+.ctaBtn:hover {
+  background: #1e40af;
+  box-shadow: 0 4px 16px rgba(37,99,235,0.13);
+}
+.contactTeaser a {
+  color: #0070f3;
+  text-decoration: underline;
+} 

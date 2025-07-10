@@ -1,0 +1,67 @@
+.portfolioPreview {
+  padding: 2rem 0;
+}
+.sectionHeader {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 2.2rem;
+  color: #18181b;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+.card {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2.1rem 1.4rem 1.6rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.18s, transform 0.18s;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0 6px 32px rgba(37,99,235,0.13);
+  transform: translateY(-4px) scale(1.025);
+}
+.cardImage {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 0.8rem;
+  margin-bottom: 1.2rem;
+  object-fit: cover;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+}
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  color: #18181b;
+  text-align: center;
+}
+.cardDesc {
+  font-size: 1.05rem;
+  color: #52525b;
+  margin-bottom: 1.1rem;
+  text-align: center;
+}
+.cardTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: center;
+}
+.cardTag {
+  background: #e0e7ff;
+  color: #3730a3;
+  font-size: 0.98em;
+  font-weight: 500;
+  border-radius: 1em;
+  padding: 0.3em 1em;
+  margin-top: 0.2em;
+} 
