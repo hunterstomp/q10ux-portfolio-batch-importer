@@ -16,7 +16,8 @@ const PROJECT_LIST_QUERY = `
 }
 `;
 
-export async function getServerSideProps() {
+// Use static generation for best performance
+export async function getStaticProps() {
   const projects = await sanityClient.fetch(PROJECT_LIST_QUERY);
   const allTags = Array.from(new Set(projects.flatMap(p => p.tags ?? [])));
   return { props: { projects, allTags } };
